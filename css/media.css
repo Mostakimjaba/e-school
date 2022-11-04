@@ -1,0 +1,190 @@
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*banner start*/
+            .banner{
+               padding: 15px 0 50px;
+            }
+            .banner_content{
+                text-align: center;
+            }
+            .b_h1{
+                margin: 10px 0 10px;
+                font-size: 28px;
+                line-height: 40px;
+            }
+            .b_p2{
+                padding: 0;
+                line-height: 30px;
+            }
+            .banner_image{
+                margin-bottom: 30px;
+                padding: 30px 60px;
+            }
+
+            .c_h1 {
+                font-size: 30px;
+            }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+         .menu ul li a {
+            padding: 0 10px !important;
+            margin-bottom: 5px;
+            }
+            .btn_header{
+            margin-left: 0 !important;
+            }
+
+            /*banner start*/
+            .banner{
+               padding: 15px 0 50px;
+            }
+            .banner_content{
+                text-align: center;
+            }
+            .b_h1{
+                margin: 10px 0 10px;
+                font-size: 30px;
+                line-height: 40px;
+            }
+            .b_p2{
+                padding: 0 55px;
+                line-height: 30px;
+            }
+            .banner_image{
+                margin-bottom: 30px;
+                padding: 40px 80px;
+            }
+             /*online courses start*/
+            .c_pad {
+                padding: 0 85px;
+            }
+
+
+            .t_text {
+                margin-top: 20px;
+                text-align: center;
+                padding: 0 30px;
+            }
+            .t_img {
+                text-align: center;
+            }
+
+            .f_left_1, .f_common{
+                margin-bottom: 35px;
+            }
+            .footer_top {
+                padding: 0px 0;
+            }
+            .footer_bottom {
+                padding: 10px 0;
+            }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px)
+    {
+         .menu ul li a {
+            padding: 0 10px !important;
+            margin-bottom: 10px;
+            }
+            .btn_header{
+            margin-left: 0 !important;
+            }
+
+            /*banner start*/
+            .banner{
+               padding: 15px 0 50px;
+            }
+            .banner_content{
+                text-align: center;
+            }
+            .b_h1{
+                margin: 10px 0 10px;
+                font-size: 38px;
+                line-height: 50px;
+            }
+            .b_p2{
+                padding: 0 100px;
+                line-height: 30px;
+            }
+            .banner_image{
+                margin-bottom: 50px;
+                padding: 0 130px;
+            }
+
+            /*feature start*/
+                .feature{
+                    padding-bottom: 60px;
+                }
+
+                 /*online courses start*/
+            .course{
+                padding-bottom: 50px;
+            }
+            .c_pad {
+                padding: 0 175px;
+            }
+            .c_box{
+                margin-top: 30px;
+            }
+
+
+            .t_text {
+                margin-top: 30px;
+                text-align: center;
+                padding: 0 30px;
+            }
+            .t_img {
+                text-align: center;
+            }
+
+            /*footer*/
+            .f_left_3, .f_left_4 {
+                margin-top: 30px;
+            }
+            /*.f_common{
+                text-align: center;
+            }*/
+
+  
+}
+   
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*feature start*/
+    .feature{
+    padding-bottom: 60px;
+    }
+    .s_feature{
+    min-height: 230px;
+    padding: 35px 35px;
+    } 
+
+    /*online courses start*/
+    .c_box{
+    padding: 20px 17px 25px;
+    }
+    .c_li{
+    margin-right: 0 !important;
+    }
+    .date ul li span, .people ul li span{
+        font-size: 14px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { }
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+            /*feature start*/
+            .s_feature {
+                padding: 72px 20px;
+            }
+}
